@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="TicketEntity" representedClassName="TicketEntity" syncable="YES">
+        <attribute name="departDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="destinationIATA" optional="YES" attributeType="String"/>
+        <attribute name="gate" optional="YES" attributeType="String"/>
+        <attribute name="originIATA" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="TicketEntity" positionX="-54" positionY="-9" width="128" height="118"/>
+    </elements>
+</model>
